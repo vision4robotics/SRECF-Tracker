@@ -3,13 +3,13 @@ Matlab implementation of our spatial reliability enhanced correlation filters (S
 
 # Abstract
 
-Recently, discriminative correlation filters (DCF) based tracker has achieved satisfactory performance with impressive efficiency, hence is a favorable choice in unmanned aerial vehicle (UAV) tracking applications. However, most research attempt to improve the discriminative ability of the entire filter and ignore the distinctiveness of different spatial locations. In this work, appearance variation information is fully exploited to generate a dynamic spatial reliability map which indicates pixel-level robustness. The locations with lower reliability are adaptively penalized and the ones with higher reliability are enhanced in the filter training, thereby forcing the filter to pay more attention to the robust location. Substantial experiments on three challenging UAV benchmarks demonstrate the superior accuracy and speed (>50fps) of our method against state-of-the-art works by an order of magnitude.
+Recently, by virtue of its impressive efficiency, discriminative correlation filter (DCF) type tracker has achieved promising applications in unmanned aerial vehicle (UAV) tracking tasks. However, the performance of such trackers remains unsatisfactory because of several challenging factors in the aerial environment. Most research attempts to improve the discrimination capability of the entire filter but ignore the distinctiveness of different spatial locations. In this work, appearance variation information is fully exploited to generate a dynamic spatial reliability map which indicates pixel-level reliability. By supervising and adaptively penalizing the locations with low reliability, the filter is equipped with better discrimination capability, thereby forcing the filter to pay more attention to the target. Meanwhile, a novel adaptively updated response pool is proposed to provide a reliable reference to calculate the reliability map. Substantial experiments on three challenging UAV benchmarks validate the superiority of the proposed scheme against other state-of-the-art works. Moreover, our proposed tracker's real-time tracking speed meets the requirement of real-world UAV tracking tasks.
 
 # Publication
 
-SRECF is proposed in our paper for IROS 2020. Detailed explanation of our method can be found in the paper:
+SRECF is proposed in our paper for ICRA 2021. Detailed explanation of our method can be found in the paper:
 
-Changhong Fu, Jin Jin, Fangqiang Ding and Yiming Li.
+Changhong Fu, Jin Jin, Fangqiang Ding, Yiming Li, and Geng Lu.
 
 Learning Spatial Reliability Enhanced Correlation Filters for Fast UAV Tracking  
 
